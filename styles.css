@@ -72,7 +72,7 @@ h3 {
 
 @media (min-width: 992px) {
   .specials, .chips {
-    height:  347px;
+    height:  466px;
   }
   .fish, .sausages {
     height:  347px;
@@ -101,4 +101,13 @@ iframe {
 }
 h1 a {
   color: #32B7FF;
+}
+
+.footer {
+  color: white;
+  text-align: right;
+  background-color: #162F49;
+  width: 100%;
+  padding: 1em;
+  height: 3.5em;
 }
