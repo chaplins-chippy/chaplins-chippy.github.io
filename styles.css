@@ -22,10 +22,27 @@ h2 {
   text-align: center;
   margin-bottom: 1em;
 }
+h3 {
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.full-width-img {
+  width: 100%;
+}
 .main-title {
   text-align: center;
   margin: 1em 0 0;
   font-size: 3rem;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .menu-block {
@@ -51,4 +68,28 @@ h2 {
 .item-price {
   position: absolute;
   right: 1.5em;
+}
+
+@media (min-width: 992px) {
+  .specials, .chips {
+    height:  347px;
+  }
+  .fish, .sausages {
+    height:  347px;
+  }
+  .kebabs, .burgers {
+    height:  573px;
+  }
+  .wraps, .naans {
+    height:  310px;
+  }
+  .pies, .chicken {
+    height:  421px;
+  }
+  .others, .sides {
+    height:  273px;
+  }
+  .drinks, .sundries {
+    height:  310px;
+  }
 }
